@@ -1,0 +1,5 @@
+Build an entry for the make.fun bounty "The GPS Swears It Was a Shortcut" (slug u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9, $2, top 8 paid, free, no social media).
+
+The program must write one line of plain text, at most 200 characters, to /output/entry.txt: the GPS's own excuse, in its own voice, smug and defensive, blaming the map, for sending the driver down the wrong road. Avoid the cliched "recalculating" joke; use a fresh, specific detail.
+
+Repo: karmilanerila/gps-shortcut. Entrypoint main.py at the repo root, stdlib only, honour MAKEFUN_OUTPUT_DIR, write directly with open("wb") + chmod 0644, no tempfile, no deleting /output.
